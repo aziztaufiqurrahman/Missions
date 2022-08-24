@@ -1,0 +1,59 @@
+.merah{
+	background-color: red;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.pink{
+	background-color: pink;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.hijau{
+	background-color: green;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.biru{
+	background-color: blue;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.kuning{
+	background-color: yellow;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.hijauTua{
+	background-color: rgb(1, 96, 1);
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.ungu{
+	background-color: rgb(176, 0, 176);
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.kuningTua{
+	background-color: rgb(185, 185, 1);
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.jingga{
+	background-color: rgb(253, 185, 59);
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.kuningHuruf {
+	color: yellow;
+	font-family: sans-serif;
+	text-align: center;
+}
