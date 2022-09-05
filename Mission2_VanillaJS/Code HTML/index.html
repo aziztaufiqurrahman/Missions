@@ -7,6 +7,8 @@
   </head>
   <body>
     <img id="tractor" src="tractor.png">
+    <img id="bird" src="bird.png">
+
     <div class="container">
       <div class="card">
         <div class="card-bg">
@@ -58,14 +60,19 @@
 
     tractor.onmouseover = function() {
       let start = Date.now();
-
       let timer = setInterval(function() {
         let timePassed = Date.now() - start;
-
         tractor.style.left = timePassed / 5 + 'px';
-
         if (timePassed > 5200) clearInterval(timer);
+      }, 10);
+    }
 
+    bird.onmouseover = function() {
+      let start = Date.now();
+      let timer = setInterval(function() {
+        let timePassed = Date.now() - start;
+        bird.style.right = timePassed / 5 + 'px';
+        if (timePassed > 7200) clearInterval(timer);
       }, 10);
     }
     </script>

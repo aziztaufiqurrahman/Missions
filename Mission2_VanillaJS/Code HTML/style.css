@@ -61,7 +61,7 @@ body{
 .card .title h2{
   color: black;
   font-family: "Eczar", serif;
-  font-size: 30px;
+  font-size: 35px;
   text-transform: uppercase;
 }
 
@@ -100,5 +100,13 @@ body{
   position: absolute;
   bottom: 8px;
   left: 16px;
+  cursor: pointer;
+}
+
+#bird {
+  position: absolute;
+  width: 200px;
+  top: 8px;
+  right: 16px;
   cursor: pointer;
 }
