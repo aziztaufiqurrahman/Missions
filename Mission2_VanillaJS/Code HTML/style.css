@@ -59,7 +59,7 @@ body{
 }
 
 .card .title h2{
-  color: white;
+  color: black;
   font-family: "Eczar", serif;
   font-size: 30px;
   text-transform: uppercase;
@@ -97,6 +97,8 @@ body{
 } 
 
 #tractor {
-  position: relative;
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
   cursor: pointer;
 }
