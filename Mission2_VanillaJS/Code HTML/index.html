@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-
+    <img id="tractor" src="tractor.png">
     <div class="container">
       <div class="card">
         <div class="card-bg">
@@ -55,6 +55,19 @@
       farm.style.transform = "translate3d(0, 0, 0)";
       tree.style.transform = "translate3d(0, 0, 0)";
     });
+
+    tractor.onmouseover = function() {
+      let start = Date.now();
+
+      let timer = setInterval(function() {
+        let timePassed = Date.now() - start;
+
+        tractor.style.left = timePassed / 5 + 'px';
+
+        if (timePassed > 2000) clearInterval(timer);
+
+      }, 10);
+    }
     </script>
 
   </body>

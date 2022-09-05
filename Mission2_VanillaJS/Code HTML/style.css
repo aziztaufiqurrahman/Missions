@@ -33,13 +33,14 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 450px;
+  width: 500px;
   height: 600px;
   transform-style: preserve-3d;
 }
 
 .card .card-bg{
   position: absolute;
+  margin-left: auto;
 }
 
 .card .card-bg img{
@@ -86,6 +87,7 @@ body{
   position: absolute;
   width: 400px;
   transition: all 0.3s ease-out;
+  border: 60px;
 }
 
 .card .images .tree{
@@ -93,3 +95,8 @@ body{
   width: 400px;
   transition: all 0.3s ease-out;
 } 
+
+#tractor {
+  position: relative;
+  cursor: pointer;
+}
